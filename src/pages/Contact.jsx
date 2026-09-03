@@ -20,7 +20,7 @@ const infoItems = [
     icon: MapPin,
     label: 'Address',
     value:
-      '1/1, Kamban Nagar, Kamarajar Road, ESI, Vibgiyar School Opp, Coimbatore – 641015',
+      '13 AKG Nagar Masakalipalayam singanallur opp to NGR School, Coimbatore – 641015',
   },
   {
     icon: Clock,

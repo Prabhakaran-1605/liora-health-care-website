@@ -46,17 +46,38 @@ export default function Footer() {
           </p>
 
           {/* Social Media */}
-          <div className="flex items-center gap-3 pt-2">
-            <a
-              href="https://www.instagram.com/liora_healthcare/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Liora Health Care on Instagram"
-              className="rounded-full border border-ivory/25 p-2 hover:border-gold hover:text-gold transition-colors"
-            >
-              <InstagramGlyph />
-            </a>
-          </div>
+          {/* Social Media */}
+<div className="flex items-center gap-3 pt-2">
+  {/* Instagram */}
+  <a
+    href="https://www.instagram.com/liora_healthcare/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Liora Health Care on Instagram"
+    className="rounded-full border border-ivory/25 p-2 hover:border-gold hover:text-gold transition-colors"
+  >
+    <InstagramGlyph />
+  </a>
+
+  {/* YouTube */}
+  <a
+    href="https://www.youtube.com/@Liorahealthcare"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Liora Health Care on YouTube"
+    className="rounded-full border border-ivory/25 p-2 hover:border-gold hover:text-gold transition-colors"
+  >
+    <svg
+      viewBox="0 0 24 24"
+      width="17"
+      height="17"
+      fill="currentColor"
+      aria-hidden="true"
+    >
+      <path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.8V8.2l6.5 3.8-6.5 3.8Z" />
+    </svg>
+  </a>
+</div>
         </div>
 
         {/* Quick Links */}
@@ -147,8 +168,7 @@ export default function Footer() {
             />
 
             <span>
-              1/1, Kamban Nagar, Kamarajar Road, ESI,
-              Vibgiyar School Opp, Coimbatore – 641015
+              13 AKG Nagar Masakalipalayam singanallurv opp to NGR School, Coimbatore – 641015
             </span>
           </span>
         </div>
