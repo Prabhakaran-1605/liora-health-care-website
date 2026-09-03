@@ -30,7 +30,7 @@ function InstagramGlyph(props) {
 export default function Footer() {
   return (
     <footer className="bg-forest text-ivory">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 py-16 grid gap-12 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10 py-16 grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
 
         {/* Brand */}
         <div className="flex flex-col gap-4">
@@ -118,7 +118,7 @@ export default function Footer() {
         </nav>
 
         {/* Contact */}
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3 min-w-0">
           <h3 className="font-serif text-lg mb-1">
             Contact
           </h3>
@@ -133,9 +133,9 @@ export default function Footer() {
 
           <a
             href="mailto:korakernaturals5@gmail.com"
-            className="flex items-center gap-2 text-ivory/70 hover:text-ivory text-sm transition-colors"
+            className="flex items-center gap-2 text-ivory/70 hover:text-ivory text-sm transition-colors break-all"
           >
-            <Mail size={15} strokeWidth={2} />
+            <Mail size={15} strokeWidth={2} className="shrink-0" />
             korakernaturals5@gmail.com
           </a>
 
