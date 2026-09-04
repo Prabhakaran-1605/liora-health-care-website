@@ -27,10 +27,10 @@ const images = {
     src: 'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=1200&auto=format&fit=crop',
     alt: 'Close-up of a gentle facial treatment, reflecting the precise, beauty-focused nature of cosmetic acupuncture',
   },
-  electroAcupuncture: {
-    src: 'https://images.unsplash.com/photo-1512290746430-3ffb4fab31bc?q=80&w=1200&auto=format&fit=crop',
-    alt: 'A client receiving a gentle, guided body treatment in a calm setting',
-  },
+electroAcupuncture: {
+  src: 'https://therootacupuncture.com/wp-content/uploads/Electroacupuncture-img-001-1024x768.jpg',
+  alt: 'Patient receiving electro acupuncture treatment with acupuncture needles connected to an electrical stimulation device',
+},
   nutrition: {
     src: 'https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=1200&auto=format&fit=crop',
     alt: 'Fresh whole foods arranged on a plate for a nutrition consultation',
