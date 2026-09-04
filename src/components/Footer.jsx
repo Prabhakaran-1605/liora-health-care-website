@@ -168,7 +168,7 @@ export default function Footer() {
             />
 
             <span>
-              13 AKG Nagar Masakalipalayam singanallurv opp to NGR School, Coimbatore – 641015
+              13 AKG Nagar Masakalipalayam singanallur opp to NGR School, Coimbatore – 641015
             </span>
           </span>
         </div>
